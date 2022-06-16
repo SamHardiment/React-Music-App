@@ -1,0 +1,12 @@
+.btn {
+  width: 45px;
+  height: 22px;
+}
+
+.btn-inactive {
+  background-color: coral;
+}
+
+.btn-active {
+  background-color: rgb(115, 255, 80);
+}

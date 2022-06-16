@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  padding: 20px;
+  height: 40px;
+  background-color: rgb(55, 57, 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 22px;
+}
+
+.active {
+  color: coral;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
