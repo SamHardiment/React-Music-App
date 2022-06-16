@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./index.css";
+
 const Button = () => {
   const [likedState, setLikedState] = useState("btn-inactive btn");
 
